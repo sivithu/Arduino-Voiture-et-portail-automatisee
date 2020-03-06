@@ -9,8 +9,6 @@ int IN4 = D0;
 bool carStop = false;
 
 void setup() {
-
-  // set all the motor control pins to outputs
   pinMode(ENA, OUTPUT);
   pinMode(ENB, OUTPUT);
   
@@ -18,11 +16,9 @@ void setup() {
   pinMode(IN2, OUTPUT);
   pinMode(IN3, OUTPUT);
   pinMode(IN4, OUTPUT);
-
 }
 
 void drive() {
-
   digitalWrite(ENA, HIGH);
   digitalWrite(ENB, HIGH);
   
@@ -30,7 +26,6 @@ void drive() {
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
-
 }
 
 void stopCar() {
@@ -41,7 +36,6 @@ void stopCar() {
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, LOW);
-
 }
 
 void loop() {
