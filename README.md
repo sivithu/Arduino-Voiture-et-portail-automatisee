@@ -8,3 +8,4 @@ Le but de ce projet est de :
 
 Voici le schéma de l'architecture de la voiture automatisée :
 
+<img width="555" alt="Schema Voiture" src="https://user-images.githubusercontent.com/36171154/76073056-53df4e80-5f99-11ea-89e3-204f04ac9709.png">
